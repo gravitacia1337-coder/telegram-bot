@@ -5,7 +5,7 @@ from google.oauth2.service_account import Credentials
 from datetime import datetime
 
 # ВСТАВЬ НОВЫЙ ТОКЕН
-BOT_TOKEN = "8505595948:AAFOZwObIHSlZmX3QzeUMyK0Lr38HWGnZ4o"
+BOT_TOKEN = "BOT_PASTE_TOKEN"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
