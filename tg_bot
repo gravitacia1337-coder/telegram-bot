@@ -3,13 +3,12 @@ from telebot.types import Message
 import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
+import os
 
-# ВСТАВЬ НОВЫЙ ТОКЕН
-BOT_TOKEN = "BOT_PASTE_TOKEN"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# Название таблицы Google Sheets
 SHEET_NAME = "ddata base"
 
 # Подключение к Google Sheets
