@@ -4,6 +4,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
 import os
+print("Путь к ключу:", os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'))
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
